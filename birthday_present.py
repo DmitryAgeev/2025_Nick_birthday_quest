@@ -1,3 +1,4 @@
+# скрипт безопасный, проверял на себе
 # pip install qrcode
 # pip install pillow
 
@@ -51,3 +52,4 @@ def make_qr_png(outfile: str = "gift_qr.png") -> None:
 
 if __name__ == "__main__":
     make_qr_png()
+
